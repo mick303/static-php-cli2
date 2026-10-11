@@ -1,7 +1,7 @@
 {
     "php": {
-        "link": "https://mirrors.tuna.tsinghua.edu.cn/php/distributions/php-{version}.tar.gz",
-        "link_2": "https://mirrors.tuna.tsinghua.edu.cn/php/distributions/php-{version}.tar.gz"
+        "link": "https://www.php.net/distributions/php-{version}.tar.gz",
+        "link_2": "https://www.php.net/distributions/php-{version}.tar.gz"
     },
     "protobuf": {
         "version": "3.21.2",
