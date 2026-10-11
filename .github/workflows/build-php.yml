@@ -13,10 +13,10 @@ jobs:
     name: Build PHP ${{ matrix.php-versions }} for ${{ matrix.arch }}
     runs-on: ubuntu-latest
     strategy:
-	  fail-fast: false
+      fail-fast: false
       matrix:
-        php-versions: [ "7.4.30", "8.0.23", "8.1.10", "8.2.0" ]
-        arch: [ "x86_64", "aarch64", "armv7l" ]
+        php-versions: [ "8.1.10" ]
+        arch: [ "armv7l" ]
     steps:
       - uses: actions/checkout@v2
       - name: Check Dockerfile to ${{ matrix.arch }}
