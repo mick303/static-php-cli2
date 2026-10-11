@@ -6,6 +6,7 @@ on:
     paths:
       - ".github/workflows/**.yml"
       - "docker/**"
+  workflow_dispatch:
 
 jobs:
   integration:
